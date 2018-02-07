@@ -10,5 +10,3 @@ before_cache:
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-
-
